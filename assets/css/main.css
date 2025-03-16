@@ -643,8 +643,8 @@ h6 {
 }
 
 .footer .copyright {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 6px;
+  padding-bottom: 6px;
   background-color: color-mix(in srgb, var(--default-color), transparent 95%);
 }
 
@@ -699,7 +699,7 @@ h6 {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 15px;
+  left: 15px;
   bottom: 15px;
   z-index: 99999;
   background-color: var(--accent-color);
@@ -920,13 +920,14 @@ section,
   padding: 20px 40px;
   max-width: 90%;
   transition: 0.3s;
-  opacity: 0.5;
-  filter: grayscale(100);
+  /* opacity: 0.5; */
+  /* filter: grayscale(100); */
 }
 
 .clients .client-logo img:hover {
-  filter: none;
-  opacity: 1;
+  /* filter: none; */
+  /* opacity: 1; */
+  scale: 1.1;
 }
 
 @media (max-width: 640px) {
@@ -1667,6 +1668,31 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
+
+.Service_list {
+  border: 2px solid rgb(81, 255, 0);
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+/* WhatsApp Button Styling */
+.whatsapp-button {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 1000; /* Ensure it's on top of other content */
+  text-decoration: none; /* Remove underline */
+}
+
+.whatsapp-button img {
+  width: 60px; /* Adjust this for size */
+  height: 60px; /* Ensures uniform scaling */
+  transition: transform 0.2s ease-in-out; /* Smooth scaling effect on hover */
+}
+
+.whatsapp-button img:hover {
+  transform: scale(1.1); /* Slightly larger on hover */
 }
