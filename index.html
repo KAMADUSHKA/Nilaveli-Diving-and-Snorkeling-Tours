@@ -66,22 +66,78 @@
   <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-
-      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" class="">
-
-      <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <h2>Online Presence with Bethany</h2>
-            <p>We are team of talented designers making websites with Bootstrap</p>
-            <a href="#about" class="btn-get-started">Get Started</a>
+    <div id="hero" class="hero dark-background">
+      <div class="swiper heroSwiper">
+        <div class="swiper-wrapper">
+    
+          <!-- Slide 1: Whales & Dolphin Watching Tours -->
+          <div class="swiper-slide text-center">
+            <video autoplay loop muted playsinline class="background-video">
+              <source src="assets/img/Dolpins.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <div class="overlay"></div>
+            <div class="row justify-content-center">
+              <div class="col-lg-12">
+                <h2>Whales & Dolphin Watching Tours</h2>
+                <p>Experience the thrill of seeing majestic whales and playful dolphins in their natural habitat.</p>
+                <div class="mt-5">
+                  <a href="#services" class="btn-get-started">Get Started</a>
+                </div>
+              </div>
+            </div>
           </div>
+    
+          <!-- Slide 2: Diving & Snorkeling Adventures -->
+          <div class="swiper-slide text-center" style="background-image: url('assets/img/hero-bg.jpg');">
+            <div class="overlay"></div>
+            <div class="row justify-content-center">
+              <div class="col-lg-12">
+                <h2>Diving & Snorkeling Adventures</h2>
+                <p>Discover the vibrant underwater world with our thrilling diving and snorkeling adventures.</p>
+                <div class="mt-5">
+                  <a href="#services" class="btn-get-started">Get Started</a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Slide 3: Sunset Boat Tours -->
+          <div class="swiper-slide text-center">
+            <video autoplay loop muted playsinline class="background-video">
+              <source src="assets/img/Dolpins.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <div class="overlay"></div>
+            <div class="row justify-content-center">
+              <div class="col-lg-12">
+                <h2>Mind Relaxing Sunset Boat Tours</h2>
+                <p>Unwind on a peaceful boat ride as the sun sets over the horizon, painting the sky with breathtaking colors.</p>
+                <div class="mt-5">
+                  <a href="#services" class="btn-get-started">Get Started</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 4: Deep & Low Deep Sea Fishing -->
+          <div class="swiper-slide text-center" style="background-image: url('assets/img/hero-bg.jpg');">
+            <div class="overlay"></div>
+            <div class="row justify-content-center">
+              <div class="col-lg-12">
+                <h2>Deep & Low Deep sea Fishing Tours</h2>
+                <p>Experience the thrill of deep and low deep sea fishing, where you can reel in big catches while enjoying the beauty of the open ocean.</p>
+                <div class="mt-5">
+                  <a href="#services" class="btn-get-started">Get Started</a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
         </div>
       </div>
-
-    </section>
-
+    </div>
+    
     <!-- Clients Section -->
     <section id="clients" class="clients section light-background">
       <div class="container" data-aos="fade-up">
@@ -90,6 +146,7 @@
 
             <div class="swiper-slide client-logo">
               <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+              <!-- <p class="">Snorkeling with Turtles</p> -->
             </div>
             <div class="swiper-slide client-logo">
               <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
@@ -119,7 +176,6 @@
       </div>
     </section>
 
-
     <!-- About Section -->
     <section id="about" class="about section">
 
@@ -139,7 +195,7 @@
             </p>
             <ul>
               <li>
-                <i class="bi bi-"></i>
+                <i class="bi bi-safe"></i>
                 <div>
                   <h5>Safety First</h5>
                   <p>Your safety is our top priority. Our experienced, certified dive instructors and guides follow international safety standards to provide a secure and enjoyable experience.</p>
@@ -284,87 +340,143 @@
       <div class="container">
         <div class="row gy-4">
 
-          <!-- Snorkeling With Turtles -->
+          <!-- Fun Diving -->
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item  position-relative">
-              <div class="icon">
-                <i class="bi bi-activity"></i>
+              <img src="assets/img/Services/Fun-Diving.jpg" alt="" class="img-fluid">
+              <div class="service-content">
+                <a href="service-details.html" class="stretched-link">
+                  <h3>Fun Diving</h3>
+                </a>
+                <p class="mb-3">Explore vibrant coral reefs and discover marine wonders with our guided diving adventures designed for passionate divers.</p>
+                <a href="service-details.html" class="stretched-link Service_btn">See More</a>
               </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Snorkeling With Turtles</h3>
-              </a>
-              <p class="mb-3">Swim alongside gentle sea turtles and admire the beauty of crystal-clear waters teeming with marine life.</p>
-              <a href="service-details.html" class="stretched-link Service_list">See More</a>
             </div>
           </div>
           
-          <!-- Snorkeling With Turtles -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-broadcast"></i>
+          <!-- Night Diving -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <img src="assets/img/Services/Night-Diving.jpg" alt="" class="img-fluid">
+              <div class="service-content">
+                <a href="service-details.html" class="stretched-link">
+                  <h3>Night Diving</h3>
+                </a>
+                <p class="mb-3">Experience the magic of the underwater world after dark as you witness nocturnal marine life in its full glory.</p>
+                <a href="service-details.html" class="stretched-link Service_btn">See More</a>
               </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Snorkeling With Turtles</h3>
-              </a>
-              <p class="mb-3">Swim alongside gentle sea turtles and admire the beauty of crystal-clear waters teeming with marine life.</p>
-              <a href="service-details.html" class="stretched-link Service_list">See More</a>
+            </div>
+          </div>
+
+          <!-- Discover Scuba Diving ( Beginner Program ) -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <img src="assets/img/Services/Padi-Cources.jpg" alt="" class="img-fluid">
+              <div class="service-content">
+                <a href="service-details.html" class="stretched-link">
+                  <h3>Discover Scuba Diving ( Beginner Program )</h3>
+                </a>
+                <p class="mb-3">Perfect for first-timers! Learn the basics of scuba diving and enjoy a safe, unforgettable underwater experience.</p>
+                <a href="service-details.html" class="stretched-link Service_btn">See More</a>
+              </div>
             </div>
           </div>
 
           <!-- Snorkeling With Turtles -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-easel"></i>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <img src="assets/img/Services/Snorkeling-With-Turtles.jpg" alt="" class="img-fluid">
+              <div class="service-content">
+                <a href="service-details.html" class="stretched-link">
+                  <h3>Snorkeling With Turtles</h3>
+                </a>
+                <p class="mb-3">Swim alongside gentle sea turtles and admire the beauty of crystal-clear waters teeming with marine life.</p>
+                <a href="service-details.html" class="stretched-link Service_btn">See More</a>
               </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Snorkeling With Turtles</h3>
-              </a>
-              <p class="mb-3">Swim alongside gentle sea turtles and admire the beauty of crystal-clear waters teeming with marine life.</p>
-              <a href="service-details.html" class="stretched-link Service_list">See More</a>
             </div>
           </div>
 
-          <!-- Snorkeling With Turtles -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-bounding-box-circles"></i>
+          <!-- Whales And Dolphins Watching Tours -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <img src="assets/img/Services/Whales-&-Dolphins-Watching-Tours.jpg" alt="" class="img-fluid">
+              <div class="service-content">
+                <a href="service-details.html" class="stretched-link">
+                  <h3>Whales And Dolphins Watching Tours</h3>
+                </a>
+                <p class="mb-3">Witness the majesty of whales and playful dolphins in their natural habitat on our eco-friendly tours.</p>
+                <a href="service-details.html" class="stretched-link Service_btn">See More</a>
               </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Snorkeling With Turtles</h3>
-              </a>
-              <p class="mb-3">Swim alongside gentle sea turtles and admire the beauty of crystal-clear waters teeming with marine life.</p>
-              <a href="service-details.html" class="stretched-link Service_list">See More</a>
             </div>
           </div>
 
-          <!-- Snorkeling With Turtles -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-calendar4-week"></i>
+          <!-- Sunset Boat Tours -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <img src="assets/img/Services/Sun-Set-Tours.jpg" alt="" class="img-fluid">
+              <div class="service-content">
+                <a href="service-details.html" class="stretched-link">
+                  <h3>Sunset Boat Tours</h3>
+                </a>
+                <p class="mb-3">Relax and unwind as you soak in stunning views of the setting sun over the tranquil ocean horizon.</p>
+                <a href="service-details.html" class="stretched-link Service_btn">See More</a>
               </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Snorkeling With Turtles</h3>
-              </a>
-              <p class="mb-3">Swim alongside gentle sea turtles and admire the beauty of crystal-clear waters teeming with marine life.</p>
-              <a href="service-details.html" class="stretched-link Service_list">See More</a>
             </div>
           </div>
 
-          <!-- Snorkeling With Turtles -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-chat-square-text"></i>
+          <!-- Kayak Tours -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <img src="assets/img/Services/kayak-tours.jpg" alt="" class="img-fluid">
+              <div class="service-content">
+                <a href="service-details.html" class="stretched-link">
+                  <h3>Kayak Tours</h3>
+                </a>
+                <p class="mb-3">Paddle through serene waters, explore hidden coves, and connect with nature on a peaceful kayaking adventure..</p>
+                <a href="service-details.html" class="stretched-link Service_btn">See More</a>
               </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Snorkeling With Turtles</h3>
-              </a>
-              <p class="mb-3">Swim alongside gentle sea turtles and admire the beauty of crystal-clear waters teeming with marine life.</p>
-              <a href="service-details.html" class="stretched-link Service_list">See More</a>
+            </div>
+          </div>
+
+          <!-- Fishing and Dolphin Watching Tours -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <img src="assets/img/Services/Fishing-and-Dolphin-Watching-Tours.jpg" alt="" class="img-fluid">
+              <div class="service-content">
+                <a href="service-details.html" class="stretched-link">
+                  <h3>Fishing and Dolphin Watching Tours</h3>
+                </a>
+                <p class="mb-3">Fishing & Dolphin Watching Tours: Experience the thrill of fishing and the joy of spotting playful dolphins in their natural habitat!</p>
+                <a href="service-details.html" class="stretched-link Service_btn">See More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Padi Courses -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <img src="assets/img/Services/Padi-Cources.jpg" alt="" class="img-fluid">
+              <div class="service-content">
+                <a href="service-details.html" class="stretched-link">
+                  <h3>Padi Courses</h3>
+                </a>
+                <p class="mb-3">Globally recognized dive training for all levels—explore the underwater world with confidence!</p>
+                <a href="service-details.html" class="stretched-link Service_btn">See More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Night Snorkeling -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <img src="assets/img/Services/Night-Snorkeling.jpg" alt="" class="img-fluid">
+              <div class="service-content">
+                <a href="service-details.html" class="stretched-link">
+                  <h3>Night Snorkeling</h3>
+                </a>
+                <p class="mb-3">Discover vibrant marine life under moonlit waters for a unique underwater adventure, guided by experts for a safe and unforgettable underwater adventure.</p>
+                <a href="service-details.html" class="stretched-link Service_btn">See More</a>
+              </div>
             </div>
           </div>
 
@@ -582,11 +694,11 @@
         <div class="col-lg-2 col-6 footer-links">
           <h4>Our Services</h4>
           <ul>
-            <li><a href="#services">Snorkeling With Turtle</a></li>
-            <li><a href="#services">Snorkeling With Turtle</a></li>
-            <li><a href="#services">Snorkeling With Turtle</a></li>
-            <li><a href="#services">Snorkeling With Turtle</a></li>
-            <li><a href="#services">Snorkeling With Turtle</a></li>
+            <li><a href="#services">Snorkeling With Turtle Tours</a></li>
+            <li><a href="#services">Fun Diving Tours</a></li>
+            <li><a href="#services">Boat Tours</a></li>
+            <li><a href="#services"></a>Fishing Tours</li>
+            <li><a href="#services">Whales Watching Tours</a></li>
           </ul>
         </div>
 
@@ -633,6 +745,8 @@
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
@@ -655,4 +769,29 @@
       prevEl: ".swiper-button-prev",
     },
   });
+</script>
+
+<script>
+  AOS.init();
+  
+  var heroSwiper = new Swiper(".heroSwiper", {
+    loop: true,
+    effect: "fade",
+    fadeEffect: { 
+      crossFade: true 
+    },
+    autoplay: { 
+      delay: 4000, 
+      disableOnInteraction: false 
+    },
+    pagination: { 
+      el: ".swiper-pagination", 
+      clickable: true 
+    },
+    navigation: { 
+      nextEl: ".swiper-button-next", 
+      prevEl: ".swiper-button-prev" 
+    }
+  });
+
 </script>
