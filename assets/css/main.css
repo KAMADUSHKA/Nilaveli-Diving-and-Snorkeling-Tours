@@ -739,11 +739,17 @@ h6 {
 --------------------------------------------------------------*/
 .page-title {
   color: var(--default-color);
-  background-color: var(--background-color);
+  background: url('https://cdn.craft.cloud/224393fa-1975-4d80-9067-ada3cb5948ca/assets/detail_ApeShake_2022.jpg') no-repeat center center;
+  background-size: cover;
   padding: 150px 0 60px 0;
   text-align: center;
   position: relative;
 }
+
+
+
+
+
 
 .page-title h1 {
   font-size: 42px;
