@@ -2180,25 +2180,8 @@ section,
   border: 1px solid #f5c6cb;
 }
 
-.contact_form .form-status {
-  display: none;
-  padding: 10px;
-  border-radius: 5px;
-}
-
 .contact_form .form-status.processing {
   background-color: #fff3cd;
   color: #856404;
 }
-
-.contact_form .form-status.success {
-  background-color: #d4edda;
-  color: #155724;
-}
-
-.contact_form .form-status.error {
-  background-color: #f8d7da;
-  color: #721c24;
-}
-
 /* Contact Email form styles */
