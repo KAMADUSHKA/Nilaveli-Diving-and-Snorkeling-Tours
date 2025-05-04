@@ -36,7 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Email sender and recipients
         $mail->setFrom('info@nilavelidivingandsnorkelingtours.com', 'Nilaweli Diving');
-        $mail->addAddress('visualvibegraphicslk@gmail.com');
+        $mail->addAddress('Thasheenkavindra@gmail.com');
         $mail->addAddress('info@nilavelidivingandsnorkelingtours.com');
         $mail->addReplyTo($email, $name);
 
