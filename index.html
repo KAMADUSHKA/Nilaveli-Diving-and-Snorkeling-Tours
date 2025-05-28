@@ -622,6 +622,11 @@
 
             <div class="form-row">
               <div class="form-group">
+                <label for="date">Date *</label>
+                <input type="date" id="date" name="date" required>
+              </div>
+
+              <div class="form-group">
                 <label>Do You Have Experience Previously? *</label>
                 <div class="radio-wrapper">
                   <label class="radio-option">
@@ -634,11 +639,11 @@
                   </label>
                 </div>
               </div>
-  
-              <div class="form-group">
+            </div>
+
+            <div class="form-row">
                 <label for="note">Note (optional)</label>
                 <textarea name="note" id="note" rows="2" placeholder="Additional details..."></textarea>
-              </div>
             </div>
 
             <button type="submit" class="submit-btn mb-3">Send Message</button>
@@ -1037,4 +1042,11 @@
     }, 3000);
   });
 </script>
+
+<script>
+  // Set today's date as min date
+  const today = new Date().toISOString().split('T')[0];
+  document.getElementById('note').setAttribute('min', today);
+</script>
+
 

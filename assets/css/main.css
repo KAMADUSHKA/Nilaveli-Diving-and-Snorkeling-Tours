@@ -2185,3 +2185,18 @@ section,
   color: #856404;
 }
 /* Contact Email form styles */
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input[type="date"] {
+  padding: 8px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.radio-wrapper {
+  display: flex;
+  gap: 10px;
+}
