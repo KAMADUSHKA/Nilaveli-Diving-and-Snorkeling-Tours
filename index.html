@@ -642,8 +642,10 @@
             </div>
 
             <div class="form-row">
+              <div class="form-group-2">
                 <label for="note">Note (optional)</label>
                 <textarea name="note" id="note" rows="2" placeholder="Additional details..."></textarea>
+              </div>
             </div>
 
             <button type="submit" class="submit-btn mb-3">Send Message</button>
@@ -1046,7 +1048,7 @@
 <script>
   // Set today's date as min date
   const today = new Date().toISOString().split('T')[0];
-  document.getElementById('note').setAttribute('min', today);
+  document.getElementById('date').setAttribute('min', today);
 </script>
 
 
